@@ -1,0 +1,17 @@
+{
+  "schemaVersion": 1,
+  "id": "minecartflipping",
+  "version": "${version}",
+  "name": "MinecartFlipping",
+  "description": "Allows Minecarts to perform full 360° rotations.",
+  "authors": ["ella"],
+  "contact": {
+    "repo": "https://github.com/voxxin/MinecartFlipping"
+  },
+  "license": "AGPL-3.0",
+  "icon": "assets/minecartflipping/icon.png",
+  "environment": "client",
+  "mixins": [
+    "minecartflipping.mixins.json"
+  ]
+}
